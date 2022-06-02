@@ -19,4 +19,8 @@ References used for populating data on the app:
 1. https://autoportal.com/newcars/ferrari/about.html
 2. https://autoportal.com/newcars/lamborghini/about.html
 3. https://autoportal.com/newcars/ford/about.html
-4. 
+4. https://www.motorbiscuit.com/what-makes-ducati-motorcycles-so-desirable/
+5. https://www.kawasaki.eu/en/about_kawasaki/Our_Story?Uid=09B6XwoKXgoNUQsJC1FRXAlbDQoNDV4OCglfWloNCl5ZX1w
+6. https://www.bigstcharlesmotorsports.com/blog/all-about-kawasaki-motorcycles--28433
+7. https://business.mapsofindia.com/automobile/two-wheelers-manufacturers/royal-enfield-motors-india.html
+8. https://autos.maxabout.com/bikes/royal-enfield
