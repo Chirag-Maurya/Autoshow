@@ -136,7 +136,7 @@ class _KawasakiPageState extends State<KawasakiPage> {
       effect: WormEffect(
         dotWidth: 10,
         dotHeight: 10,
-        activeDotColor: Color.fromARGB(255, 254, 167, 0),
+        activeDotColor: Color.fromARGB(255, 50, 205, 50),
         dotColor: Colors.black12,
       ),
     );
