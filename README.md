@@ -24,3 +24,7 @@ References used for populating data on the app:
 6. https://www.bigstcharlesmotorsports.com/blog/all-about-kawasaki-motorcycles--28433
 7. https://business.mapsofindia.com/automobile/two-wheelers-manufacturers/royal-enfield-motors-india.html
 8. https://autos.maxabout.com/bikes/royal-enfield
+9. https://www.deccanherald.com/brandspot/tata-trucks-enhance-profitability-with-design-efficiency-999722.html
+10. https://www.psuconnect.in/company/ashok-leyland/272
+11. https://babatrucks.com/volvo
+12. https://auto.hindustantimes.com/auto/news/volvo-trucks-is-world-s-first-to-use-fossil-free-steel-in-its-trucks-41653468418187.html
