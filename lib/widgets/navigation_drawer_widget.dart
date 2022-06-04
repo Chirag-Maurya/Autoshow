@@ -99,7 +99,7 @@ class _NavigationDrawerWidgetState extends State<NavigationDrawerWidget> {
             buildMenuItem(
               text: "Sign Out",
               icon: Icons.settings_power_outlined,
-              onClicked: () => FirebaseAuth.instance.signOut(),
+              onClicked: () async => await FirebaseAuth.instance.signOut(),
             ),
           ],
         ),
