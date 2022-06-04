@@ -13,32 +13,97 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   final user = FirebaseAuth.instance.currentUser!;
 
+  final brandIcons = [
+    "assets/ferrari.png",
+    "assets/lamborghini.png",
+    "assets/ford.png",
+    "assets/ducati.png",
+    "assets/kawasaki.png",
+    "assets/royal_enfield.png",
+    "assets/tata.png",
+    "assets/ashok_leyland.png",
+    "assets/volvo.png",
+    "assets/malibu.png",
+    "assets/mastercraft.png",
+    "assets/royal_caribbean.png",
+    "assets/airbus.png",
+    "assets/boeing.png",
+    "assets/embraer.png",
+  ];
+
   @override
   Widget build(BuildContext context) {
+    double alignment = 4.0;
+    double gridHeight = 10 * (brandIcons.length * alignment);
     return Scaffold(
       drawer: NavigationDrawerWidget(),
       appBar: AppBar(
         title: Text(
-          'APP HOME PAGE',
+          'WELCOME TO AUTOSHOW',
           style: GoogleFonts.robotoSlab(
-            fontSize: 24,
+            fontSize: 20,
             fontWeight: FontWeight.bold,
           ),
         ),
         backgroundColor: Theme.of(context).primaryColor,
       ),
-      body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            MaterialButton(
-              onPressed: () {
-                FirebaseAuth.instance.signOut();
-              },
-              color: Colors.deepPurple[300],
-              child: const Text('Sign Out'),
-            ),
-          ],
+      body: SingleChildScrollView(
+        child: Container(
+          child: Column(
+            children: [
+              Center(
+                child: Column(
+                  children: [
+                    const SizedBox(height: 8),
+                    Text(
+                      "Autoshow",
+                      style: GoogleFonts.bebasNeue(
+                        fontSize: 32,
+                      ),
+                    ),
+                    Text(
+                      "Your vehicle encyclopedia",
+                      style: GoogleFonts.bebasNeue(
+                        fontSize: 32,
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              Divider(
+                color: Colors.black,
+                indent: 10,
+                endIndent: 10,
+                thickness: 1,
+              ),
+              Text(
+                "Autoshow gives you all the information that you need to know aboue the bigest vehicle brands in the industry today. Get your knowledge on the largest and the most dominant companies around; learn how thaey started and what made them become the giants they are today. Satisfy your brainly curiosity and read about them here. This is your one-app stop for all brands.",
+                style: GoogleFonts.robotoCondensed(
+                  fontSize: 22,
+                ),
+              ),
+              Text(
+                "Brands Covered",
+                style: GoogleFonts.bebasNeue(
+                  fontSize: 32,
+                ),
+              ),
+              SizedBox(
+                height: gridHeight,
+                child: GridView.builder(
+                  gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                      crossAxisCount: 2,
+                      crossAxisSpacing: 4.0,
+                      mainAxisSpacing: alignment),
+                  itemCount: brandIcons.length,
+                  itemBuilder: (BuildContext context, int index) {
+                    return Image.asset(brandIcons[index]);
+                  },
+                  physics: ScrollPhysics(),
+                ),
+              ),
+            ],
+          ),
         ),
       ),
     );
