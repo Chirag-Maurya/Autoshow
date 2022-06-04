@@ -92,8 +92,8 @@ class _HomePageState extends State<HomePage> {
                 height: gridHeight,
                 child: GridView.builder(
                   gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-                      crossAxisCount: 2,
-                      crossAxisSpacing: 4.0,
+                      crossAxisCount: 3,
+                      crossAxisSpacing: alignment,
                       mainAxisSpacing: alignment),
                   itemCount: brandIcons.length,
                   itemBuilder: (BuildContext context, int index) {
