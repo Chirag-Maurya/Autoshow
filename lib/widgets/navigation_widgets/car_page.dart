@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:my_sample/widgets/cars/ferrarri_page.dart';
-import 'package:my_sample/widgets/cars/ford_page.dart';
-import 'package:my_sample/widgets/cars/laborghini_page.dart';
-import 'package:my_sample/widgets/models/machines.dart';
-import 'package:my_sample/widgets/navigation_drawer_widget.dart';
+import 'package:AutoShow/widgets/cars/ferrarri_page.dart';
+import 'package:AutoShow/widgets/cars/ford_page.dart';
+import 'package:AutoShow/widgets/cars/laborghini_page.dart';
+import 'package:AutoShow/widgets/models/machines.dart';
+import 'package:AutoShow/widgets/navigation_drawer_widget.dart';
 
 class CarPage extends StatelessWidget {
   const CarPage({Key? key}) : super(key: key);

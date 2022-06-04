@@ -2,13 +2,13 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 
-import 'package:my_sample/widgets/navigation_widgets/bike_page.dart';
-import 'package:my_sample/widgets/navigation_widgets/boats_page.dart';
-import 'package:my_sample/widgets/navigation_widgets/car_page.dart';
-import 'package:my_sample/widgets/home_page.dart';
-import 'package:my_sample/widgets/navigation_widgets/planes_page.dart';
-import 'package:my_sample/widgets/navigation_widgets/truck_page.dart';
-import 'package:my_sample/widgets/navigation_widgets/user_profile.dart';
+import 'package:AutoShow/widgets/navigation_widgets/bike_page.dart';
+import 'package:AutoShow/widgets/navigation_widgets/boats_page.dart';
+import 'package:AutoShow/widgets/navigation_widgets/car_page.dart';
+import 'package:AutoShow/widgets/home_page.dart';
+import 'package:AutoShow/widgets/navigation_widgets/planes_page.dart';
+import 'package:AutoShow/widgets/navigation_widgets/truck_page.dart';
+import 'package:AutoShow/widgets/navigation_widgets/user_profile.dart';
 
 class NavigationDrawerWidget extends StatefulWidget {
   NavigationDrawerWidget({Key? key}) : super(key: key);

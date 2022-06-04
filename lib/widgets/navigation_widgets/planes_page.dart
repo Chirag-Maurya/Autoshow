@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:my_sample/widgets/models/machines.dart';
-import 'package:my_sample/widgets/navigation_drawer_widget.dart';
-import 'package:my_sample/widgets/planes/airbus_page.dart';
-import 'package:my_sample/widgets/planes/boeing_page.dart';
-import 'package:my_sample/widgets/planes/embraer_page.dart';
+import 'package:AutoShow/widgets/models/machines.dart';
+import 'package:AutoShow/widgets/navigation_drawer_widget.dart';
+import 'package:AutoShow/widgets/planes/airbus_page.dart';
+import 'package:AutoShow/widgets/planes/boeing_page.dart';
+import 'package:AutoShow/widgets/planes/embraer_page.dart';
 
 class PlanesPage extends StatelessWidget {
   const PlanesPage({Key? key}) : super(key: key);

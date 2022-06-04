@@ -2,7 +2,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-import 'package:my_sample/widgets/navigation_drawer_widget.dart';
+import 'package:AutoShow/widgets/navigation_drawer_widget.dart';
 
 class UserPage extends StatefulWidget {
   final String name;

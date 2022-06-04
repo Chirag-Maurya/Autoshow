@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:my_sample/widgets/boats/malibu_page.dart';
-import 'package:my_sample/widgets/boats/mastercraft_page.dart';
-import 'package:my_sample/widgets/boats/royalcaribbean_page.dart';
-import 'package:my_sample/widgets/models/machines.dart';
-import 'package:my_sample/widgets/navigation_drawer_widget.dart';
+import 'package:AutoShow/widgets/boats/malibu_page.dart';
+import 'package:AutoShow/widgets/boats/mastercraft_page.dart';
+import 'package:AutoShow/widgets/boats/royalcaribbean_page.dart';
+import 'package:AutoShow/widgets/models/machines.dart';
+import 'package:AutoShow/widgets/navigation_drawer_widget.dart';
 
 class BoatsPage extends StatelessWidget {
   const BoatsPage({Key? key}) : super(key: key);

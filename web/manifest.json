@@ -1,6 +1,6 @@
 {
-    "name": "my_sample",
-    "short_name": "my_sample",
+    "name": "AutoShow",
+    "short_name": "AutoShow",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

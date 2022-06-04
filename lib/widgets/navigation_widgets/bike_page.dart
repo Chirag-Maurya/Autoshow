@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:my_sample/widgets/bikes/ducati_page.dart';
-import 'package:my_sample/widgets/bikes/kawasaki%20_page.dart';
-import 'package:my_sample/widgets/bikes/royalenfield_page.dart';
+import 'package:AutoShow/widgets/bikes/ducati_page.dart';
+import 'package:AutoShow/widgets/bikes/kawasaki%20_page.dart';
+import 'package:AutoShow/widgets/bikes/royalenfield_page.dart';
 
-import 'package:my_sample/widgets/models/machines.dart';
+import 'package:AutoShow/widgets/models/machines.dart';
 
-import 'package:my_sample/widgets/navigation_drawer_widget.dart';
+import 'package:AutoShow/widgets/navigation_drawer_widget.dart';
 
 class BikePage extends StatelessWidget {
   const BikePage({Key? key}) : super(key: key);

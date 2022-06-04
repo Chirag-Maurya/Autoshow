@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:my_sample/widgets/models/machines.dart';
-import 'package:my_sample/widgets/navigation_drawer_widget.dart';
-import 'package:my_sample/widgets/trucks/ashokleyland.dart';
-import 'package:my_sample/widgets/trucks/tata_page.dart';
-import 'package:my_sample/widgets/trucks/volvo.dart';
+import 'package:AutoShow/widgets/models/machines.dart';
+import 'package:AutoShow/widgets/navigation_drawer_widget.dart';
+import 'package:AutoShow/widgets/trucks/ashokleyland.dart';
+import 'package:AutoShow/widgets/trucks/tata_page.dart';
+import 'package:AutoShow/widgets/trucks/volvo.dart';
 
 class TruckPage extends StatelessWidget {
   const TruckPage({Key? key}) : super(key: key);
