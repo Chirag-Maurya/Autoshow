@@ -47,3 +47,5 @@ References used for populating data on the app:
 29. https://embraer.com/global/en/about-us
 30. https://www.globaldata.com/company-profile/Embraer-SA/
 31. https://moneyinc.com/embraer/
+
+App Icon download source: <a target="_blank" href="https://icons8.com/icon/JRUo3ApE4hDn/search-vehicles">Search Vehicles</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
