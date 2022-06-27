@@ -2,6 +2,6 @@
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:drawable="@color/background_color"/>
     <item>
-        <bitmap android:gravity="center" android:src="@drawable/car"/>
+        <bitmap android:gravity="fill" android:src="@mipmap/car2"/>
     </item>
 </layer-list>
